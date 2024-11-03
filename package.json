@@ -1,11 +1,19 @@
 {
   "name": "typescript-homework-module-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "goit-advancedjs-hw-07",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.6"
   }
 }
